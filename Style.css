@@ -1,0 +1,100 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+/* Navigation bar & top logo */
+body{
+    background-color:hsl(217, 28%, 15%);
+}
+nav{
+    background-color:hsl(217, 28%, 15%);
+}
+intro{
+    background-color:hsl(217, 28%, 15%);
+}
+nav a{
+    color:white;
+}
+nav a:hover{
+    color:hsl(176, 68%, 64%);
+    transition: color .5s;
+}
+nav img{
+    margin-top:3%;
+    margin-left:3%;
+}
+rightnav{
+    float:right;
+    margin-right:5%;
+    margin-top: 3%;
+}
+
+nav li{
+    display:inline;
+    padding-right:5%;
+}
+/* Introduction */
+intro columns{
+    margin-top:10%;
+}
+h1{
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    font-size: xx-large;
+}
+h3{
+    color:white;
+    text-align:center;
+    font-size: large;
+}
+columns{
+    margin-top: 5%
+}
+figure img{
+    padding-left: 40%;
+}
+figcaption{
+    color:white;
+    text-align:center;
+}
+button{
+    background-color:hsl(176, 68%, 64%);
+    border-radius: 20px;
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:2%;
+    padding-bottom:2%;
+    color:white ;
+    font-family: sans-serif, "Segoe UI Variable";
+    font-weight: bold;
+    text-align:center;
+}
+
+main{
+    background: url("Images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+mid-columns{
+    background-color: hsl(218, 28%, 13%);
+    z-index:1 ;
+}
+mid h1{
+    color:white;
+    font-weight:bold;
+    font-size: xx-large;
+    text-align: left;
+}
+mid a{
+    color: hsl(176, 68%, 64%);
+    text-decoration: underline;
+}
+mid a:hover{
+    color: orange;
+    transition: color .5s;
+}
+p{
+    color:white;
+}
+.footer{
+    background-color: hsl(216, 53%, 9%);
+}
